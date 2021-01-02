@@ -12,25 +12,25 @@
 ---
 Debian:
   pkg:
-    name: TEMPLATE-debian
-  config: /etc/TEMPLATE.d/custom.conf
+    name: zigbee2mqtt-debian
+  config: /etc/zigbee2mqtt.d/custom.conf
 
 RedHat:
   pkg:
-    name: TEMPLATE-redhat
-  config: /etc/TEMPLATE.conf
+    name: zigbee2mqtt-redhat
+  config: /etc/zigbee2mqtt.conf
 
 Suse:
   pkg:
-    name: TEMPLATE-suse
+    name: zigbee2mqtt-suse
 
 Gentoo:
   pkg:
-    name: TEMPLATE-gentoo
+    name: zigbee2mqtt-gentoo
 
 Arch:
   pkg:
-    name: TEMPLATE-arch
+    name: zigbee2mqtt-arch
   service:
     name: service-arch
 
